@@ -46,14 +46,15 @@ body,html {
 #size{
     text-align: center; 
     position: relative;
-    top: 370px;
+    top: 500px;
     color:aqua;
-   font-size: 25px;
+   font-size: 30px;
    background-color:rgba(0, 0, 0, 0.8);
     margin-left: 2%;
 margin-right: 2%;
 padding-bottom: 20px;
 padding-left: 6%;
+font-family: 'Akaya Telivigala', cursive;
 }
 
 
