@@ -1,7 +1,24 @@
+
+
 body {
     background-image: url('./images/wallpaperflare.com_wallpaper.jpg');
 }
 #home {
     text-align: center;
     color: aqua;
+    position: relative;
+    top: 250px;
+}
+.welcome{
+    font-style: oblique;
+    font-weight: 100;
+    font-size: 90px;
+}
+.to{
+    font-style: italic;
+    font-size: 70px;
+}
+.name{
+    font-size: 120px;
+    font-family: 'Flavors', cursive;
 }
