@@ -2,12 +2,13 @@
 
 body {
     background-image: url('./images/wallpaperflare.com_wallpaper.jpg');
+    height: 100%;
 }
 #home {
     text-align: center;
     color: aqua;
     position: relative;
-    top: 250px;
+    top: 110px;
 }
 .welcome{
     font-family: 'Flavors', cursive;
