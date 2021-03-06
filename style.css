@@ -1,3 +1,7 @@
 body {
     background-image: url('./images/wallpaperflare.com_wallpaper.jpg');
 }
+#home {
+    text-align: center;
+    color: aqua;
+}
