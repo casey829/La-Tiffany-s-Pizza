@@ -10,11 +10,12 @@ body {
     top: 250px;
 }
 .welcome{
-    font-style: oblique;
+    font-family: 'Flavors', cursive;
     font-weight: 100;
     font-size: 90px;
 }
 .to{
+    font-family: 'DotGothic16', sans-serif;
     font-style: italic;
     font-size: 70px;
 }
