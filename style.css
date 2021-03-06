@@ -1,8 +1,14 @@
 
 
-body {
+body,html {
     background-image: url('./images/wallpaperflare.com_wallpaper.jpg');
-    height: 100%;
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow-x: hidden;
+  height: 100%;
+  scroll-behavior: smooth;
+    
 }
 #home {
     text-align: center;
@@ -23,4 +29,17 @@ body {
 .name{
     font-size: 120px;
     font-family: 'Flavors', cursive;
+}
+
+#about{
+    text-align: center; 
+    position: relative;
+    top: 300px;
+    color: aqua;
+   font-size: 25px;
+   background-color: rgba(0, 0, 0, 0.8);
+   margin-left: 2%;
+   margin-right: 2%;
+   padding-bottom: 20px;
+   padding-left: 6%;
 }
