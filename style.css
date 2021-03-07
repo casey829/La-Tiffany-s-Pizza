@@ -59,10 +59,15 @@ body,html {
 #order{
   position: relative;
   top:350px; 
+
   font-size: 30px;
   background-color:rgba(0, 0, 0, 0.8);
    
    padding-bottom: 90px;
+}
+.label{
+    position: relative;
+    right: 20%;
 }
 
 
