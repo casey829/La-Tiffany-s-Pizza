@@ -102,7 +102,7 @@
           <div class="container-fluid order" id="order" href="#order">
             <h2>Place Your Order Here</h2>
             <div class="row">
-              <div class="col-md-12">
+              <div class="col-md-12" class="sizes">
                 <label for="select" class="label">Pizza Size</label>
                 <select class="form-control">
                   <option value="1">Small</option>
@@ -110,10 +110,11 @@
                   <option value="3">Large</option>
                 </select>
               </div>
-              <div class="col-md-12">
-                <label for="select" class="label">Choose pizza flavour</label>
+              <!--flavour-->
+              <div class="col-md-12" >
+                <label for="select" id="label">Choose pizza flavour</label>
                 <select class="form-control" id="1">
-                  <option value="1">Cheese Pizza</option>
+            
                   <option value="2">Hawaiian Pizza</option>
                   <option value="3">Veggie Pizza</option>
                   <option value="4">Pepperoni Pizza</option>
@@ -133,9 +134,9 @@
                   <option value="6">Extra cheese</option>
                 </select>
               </div>
-              <div class="col-md-12">
+              <div class="col-md-12" id="crust">
                 <label for="select" class="label">Type Of Crust</label>
-                <select class="form-control" id="1">
+                <select class="form-control" id="crust">
                   <option value="1">Crispy----ksh.200</option>
                   <option value="2">Stuffed---ksh.180</option>
                   <option value="3">Gluten-free---ksh.150</option>
@@ -156,25 +157,57 @@
                 <br><br>
                 <button type="button"class="proceed">Proceed</button>
             </div>
-            <div class="col-md-12" id="summary">
-              <h1>Summary Order</h1>
-              <p>Please review your order before checkout,Enjoy.</p>
-              <p>Delivery fee @ksh.260</p>
-              </div>
-              <div class="col-md-6">
-              <input class="form-control" id="inform" type="text" placeholder="Name">
-              <input class="form-control" id="inform" type="text" placeholder="Location">
-              <input class="form-control" id="inform" type="text" placeholder="Phone Number+254">
+          </form>
+          <!--address-->
+          <div class="row">
+            <div class="col-md-12">
+          <div id="newAddress">
+           <h4>Delivery Location</h4>
+                        <label for="location" class="form-label">County</label>
+                        <input type="text" class="form-control" id="county" placeholder="Nairobi">
+                        </div>
+                        </div>
+                <div class="col-md-12">
+                  
+                        <label for="location" class="form-label">City</label>
+                        <input type="text" class="form-control" id="city" placeholder="Nairobi">
+                </div>
+                <div class="col-md-12">
+                  
+                        <label for="location" class="form-label">Street</label>
+                        <input type="text" class="form-control" id="street" placeholder="Tom Mboya">
+                    
+                </div>
+            <div class="col-md-12">
+            <div class="text-muted">
+                <p>All deliveries are charged Ksh 300</p>
             </div>
-            <div class="col-md-12" id="option">
-              <button class='deliver'>Delivery</button>
-              <button class='pick'>Pick Up</button>
-          </div>
-          </div>
-          
-
+            </div>
         </div>
+      <div class="row">
+        <div class="col-md-12">
+        <button type="submit" id="addOrder" class="btn btn-light mt-3">Place Another Order</button>
+        <button type="submit" id="addDelivery" class="btn btn-light mt-3">Add Delivery
+            Location</button>
+        <button type="submit" id="checkout" class="btn btn-light mt-3">Checkout Your Order</button>
+        <button type="submit" class="btn btn-secondary mt-3">Place Order</button>
+    </form>
+  </div>
       </div>
+    
+<div class="col-md-12">
+    <div id="orderCheckout">
+        <div class="heading">
+            <h2>Your Order</h2>
+            <p class="size">Pizza Size: </p>
+            <p class="topping">Pizza Topping: </p>
+            <p class="crust">Pizza Crust: </p>
+            <p class="location">Delivery Location: </p>
+        </div>
+    </div>
+</div>
+</div>
+ </div>
 </body>
 <script src="./script.js"></script>
 
