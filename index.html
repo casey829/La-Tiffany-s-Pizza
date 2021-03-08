@@ -15,6 +15,7 @@
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap');
   </style>
+  
   <link rel='stylesheet' type='text/css' media='screen' href='./bootstrap-4.6.0-dist/css/bootstrap.css'>
   <link rel="stylesheet" type="text/css" href="./style.css">
   <script src='./bootstrap-4.6.0-dist/js/jquery-3.5.1 (1).js'></script>
@@ -101,7 +102,7 @@
             <div class="row">
               <div class="col-md-12">
                 <label for="select" class="label">Pizza Size</label>
-                <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
+                <select class="form-control" id="order1">
                   <option value="1">Small</option>
                   <option value="2">Medium</option>
                   <option value="3">Large</option>
@@ -109,7 +110,7 @@
               </div>
               <div class="col-md-12">
                 <label for="select" class="label">Choose pizza flavour</label>
-                <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
+                <select class="form-control" id="order1">
                   <option value="1">Cheese Pizza</option>
                   <option value="2">Hawaiian Pizza</option>
                   <option value="3">Veggie Pizza</option>
@@ -120,7 +121,7 @@
               </div>
               <div class="col-md-12">
                 <label for="select" class="label">Choose topping(s) @ksh.70 each</label>
-                <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
+                <select class="form-control" id="order1">
                   <option value="1">Pineapple</option>
                   <option value="2">Mushrooms</option>
                   <option value="3">Onions</option>
@@ -131,14 +132,19 @@
               </div>
               <div class="col-md-12">
                 <label for="select" class="label">Type Of Crust</label>
-                <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
+                <select class="form-control" id="order1">
                   <option value="1">Crispy----ksh.200</option>
                   <option value="2">Stuffed---ksh.180</option>
                   <option value="3">Gluten-free---ksh.150</option>
                 </select>
+                <br><br>
+                <button type="button" onclick="alert('')" class="proceed">Proceed</button>
               </div>
+    
             </div>
           </div>
+          
+
         </div>
       </div>
 </body>

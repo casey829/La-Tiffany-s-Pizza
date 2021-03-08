@@ -52,14 +52,14 @@ body,html {
    background-color:rgba(0, 0, 0, 0.8);
     margin-left: 2%;
     margin-right: 2%;
-    padding-bottom: 1px;
-    padding-left: 6%;
+    padding-bottom: 2px;
+    padding-left: 2%;
    font-family: 'Akaya Telivigala', cursive;
 }
 #order{
   position: relative;
   top:450px; 
-
+  font-family: 'DotGothic16', sans-serif;
   font-size: 30px;
   background-color:rgba(0, 0, 0, 0.8);
    
@@ -69,6 +69,9 @@ body,html {
 
     position: relative;
     right: 20%;
+}
+.proceed{
+    color: aqua;
 }
 
 
