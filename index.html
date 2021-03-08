@@ -124,6 +124,7 @@
               <div class="col-md-12">
                 <label for="select" class="label">Choose topping(s) @ksh.70 each</label>
                 <select class="form-control" id="1">
+                  <option value="1">None</option>
                   <option value="1">Pineapple</option>
                   <option value="2">Mushrooms</option>
                   <option value="3">Onions</option>
@@ -153,8 +154,22 @@
                   <option value="3">8</option>
                 </select>
                 <br><br>
-                <button type="button" onclick="alert('')" class="proceed">Proceed</button>
+                <button type="button"class="proceed">Proceed</button>
             </div>
+            <div class="col-md-12" id="summary">
+              <h1>Summary Order</h1>
+              <p>Please review your order before checkout,Enjoy.</p>
+              <p>Delivery fee @ksh.260</p>
+              </div>
+              <div class="col-md-6">
+              <input class="form-control" id="inform" type="text" placeholder="Name">
+              <input class="form-control" id="inform" type="text" placeholder="Location">
+              <input class="form-control" id="inform" type="text" placeholder="Phone Number+254">
+            </div>
+            <div class="col-md-12" id="option">
+              <button class='deliver'>Delivery</button>
+              <button class='pick'>Pick Up</button>
+          </div>
           </div>
           
 

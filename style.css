@@ -71,6 +71,19 @@ body,html {
 .proceed{
     color: aqua;
 }
+#inform{
+    text-align: center;
+    position: relative;
+    left:50%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+#summary{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#order{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
 
 
 
