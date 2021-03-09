@@ -43,7 +43,7 @@ body,html {
    padding-bottom: 20px;
    font-family: 'Akaya Telivigala', cursive;
 }
-#size{
+#sizes{
     text-align: center; 
     position: relative;
     top: 500px;
@@ -52,38 +52,89 @@ body,html {
    background-color:rgba(0, 0, 0, 0.8); 
    font-family: 'Akaya Telivigala', cursive;
 }
-#order{
-    text-align: center; 
-    position: relative;
-    top: 580px;
-    color:aqua;
-   font-size: 30px;
-   background-color:rgba(0, 0, 0, 0.8);
-    margin-left: 2%;
-    margin-right: 2%; 
-    font-family: 'DotGothic16', sans-serif;
-}
-.label{
+
+/*.label{
 
     position: relative;
     right: 20%;
+}*?*/
+.order-overlay{
+  background-color: rgba(0, 0, 0, 0.8);
+  margin-left: 2%;
+  margin-right: 2%;
+  padding-bottom: 20px;
+  padding-left: 6%;
+  position: relative;
+  top: 580px;
+  color: aqua;
 }
-.proceed{
-    color: aqua;
-}
-#inform{
+.choice{
+    display: none;
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+  .deliver{
+    display: none;
+  }
+  .delivery{
+    display: none;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  td,th{
+    font-size: 20px;
+    color: white;
+  }
+  .choice h2{
+    color:aqua;
+    text-align: left;
+  }
+  #contact h2{
     text-align: center;
-    position: relative;
-    left:50%;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  #contact{
+    color:aqua;
+  }
+  #contactdetails h2{
+    text-align: left;
+  }
+  .footer{
+    padding-top: 5%;
+  }
+  #addedprice{
+    display: none;
+  }
+  #finallmessage{
+    display: none;
+    padding-top: 10%;
+    padding-right: 10%;
+    padding-left: 10%;
+    font-size: 28px;
+  }
+  #regards{
+    text-align: center;
+    color: aqua;
+  }
+  #information{
+    padding-top: 5%;
+    font-size: 22px;
+    padding-right: 8%;
+    padding-left: 5%;
+    color:aqua;
+}
+#fla{
+    font-size: 20px;
+}
 
-}
-#summary{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-#order{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
+
+
+
+
+
+
+
+
+
 
 
 
