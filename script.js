@@ -12,16 +12,15 @@ $(document).ready(function () {
         this.city = city;
         this.street = street;
     }
-    function OrderCost(sizeCost, toppingCost, crustCost, deliveryCost, totalCost) 
+    function OrderCost(sizeCost, toppingCost, crustCost, deliveryCost, totalCost) {
     
-
         this.sizeCost = sizeCost;
         this.toppingCost = toppingCost;
         this.crustCost = crustCost;
         this.deliveryCost = deliveryCost;
         this.totalCost = totalCost;
 
-        totalCost = sizeCost + toppingCost + crustCost + deliveryCost;
+        totalCost = sizeCost + toppingCost + crustCost + deliveryCost;}
 
         Order.prototype.fullOrder = function () {
             return "Pizza size: " + this.Pizzasize + " " + "Pizza Topping: " + this.Pizzatopping + " " + "Pizza Crust: " + this.Pizzacrust;
@@ -35,7 +34,6 @@ $(document).ready(function () {
             $("input#street").val("");
         };
         $("#addOrder").click(function () {
-            $("#pizzaOrder").append('neworder md-12'+
             ' <select class="form-control">'+
             '<option value="1">Small</option>'+
             '<option value="2">Medium</option>'+
@@ -75,10 +73,10 @@ $(document).ready(function () {
             newOrder.address.push(newAddress);
         })
 
-        $("#checkoutBtn").click(function () {
+        $("#checkout").click(function () {
             $("#orderCheckout").show();
-            $(".size").text(Order.Pizzasize);
-            $(".topping").text(Order.Pizzatopping);
+            $(".sizes").text(Order.Pizzasize);
+            $(".toppings").text(Order.Pizzatopping);
             $(".crust").text(Order.Pizzacrust);
             $(".location").text(Addresses.fullAddress);
         });
